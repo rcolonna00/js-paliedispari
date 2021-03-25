@@ -26,9 +26,10 @@ if( parolaUno == parolaDue ){
 }
 
 // stampa il risultato del confronto tra le due parole
-alert(conclusione);
+ return conclusione;
 }
 
-var messaggioFinale = confrontoPalindroma(parolaUtente, parolaUtente)
+var messaggioFinale = confrontoPalindroma(parolaUtente, parolaUtente);
+alert (messaggioFinale);
 
 //stampare il messaggio
