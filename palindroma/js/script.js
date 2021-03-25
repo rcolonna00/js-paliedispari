@@ -16,13 +16,13 @@ console.log(parolaUno);
 for( var j = parolaUtente.length - 1; j >= 0; j-- )
 var parolaDue = parolaUtente[j];
 console.log(parolaDue);
-var conclusione;
 
+var conclusione;
 //confrontare i due for
 if( parolaUno == parolaDue ){
     conclusione = ('la parola è palindroma')
 } else {
-    conclusione = ('la parola non è polindroma')
+    conclusione = ('la parola non è palindroma')
 }
 
 // stampa il risultato del confronto tra le due parole
