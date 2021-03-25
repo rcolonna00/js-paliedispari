@@ -2,7 +2,8 @@
 var parolaUtente = prompt('Dimmi una parola');
 console.log(parolaUtente);
 
-
+//funzione che controlla se la parola inserita dall'utente
+//è palindroma o no
 function confrontoPalindroma (parolaUno, parolaDue) {
 //creare due for uno da sinistra e uno da destra
 //
