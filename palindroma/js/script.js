@@ -8,14 +8,16 @@ function confrontoPalindroma (parolaUno, parolaDue) {
 //creare due for uno da sinistra e uno da destra
 //
 //legge da sinistra a destra
-for( var i = 0; i < parolaUtente.length; i++ )
+for( var i = 0; i < parolaUtente.length; i++ ) {
 var parolaUno = parolaUtente[i];
 console.log(parolaUno);
+}
 
 //legge da destra a sinistra
-for( var j = parolaUtente.length - 1; j >= 0; j-- )
+for( var j = parolaUtente.length - 1; j >= 0; j-- ) {
 var parolaDue = parolaUtente[j];
 console.log(parolaDue);
+}
 
 var conclusione;
 //confrontare i due for
